@@ -4,7 +4,6 @@ export const LoginTypes = makeConstantCreator(
   'USER_LOGIN',
   'USER_LOGIN_SUCCESS',
   'USER_LOGIN_FAILURE',
-
   'USER_LOGOUT',
 );
 
