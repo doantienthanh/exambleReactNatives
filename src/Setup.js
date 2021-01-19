@@ -16,7 +16,7 @@ const App = () => {
       })
       .catch((err) => {});
   };
-
+  
   const loadStore = async () => {
     return new Promise((resolve) => {
       configureStore((tempStore, persistor) => {
@@ -42,5 +42,4 @@ const App = () => {
     }
   });
 };
-
 export default App;
