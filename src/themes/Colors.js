@@ -145,5 +145,3 @@ export const defaultColors = {
   yellow: '#ffff00',
   yellowgreen: '#9acd32',
 };
-
-

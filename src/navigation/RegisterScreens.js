@@ -9,12 +9,17 @@ import Home from '../screens/Home';
 import SignUp from '../screens/Login/SignUp';
 import ForgotPassword from '../screens/Login/ForgotPassword';
 import Profile from '../screens/User/Profile';
+import ChangePassword from '../screens/User/ChangePassword';
+import UpdateUsers from '../screens/User/UpdateUsers';
+
 const SCREENS_WITH_REDUX = {
   Login,
   Home,
   SignUp,
   ForgotPassword,
   Profile,
+  ChangePassword,
+  UpdateUsers,
 };
 const SCREENS = {};
 

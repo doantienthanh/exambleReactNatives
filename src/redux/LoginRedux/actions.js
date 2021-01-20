@@ -11,7 +11,8 @@ const userLogin = (data) => makeActionCreator(LoginTypes.USER_LOGIN, { data });
 const userLoginSuccess = (response) =>
   makeActionCreator(LoginTypes.USER_LOGIN_SUCCESS, { response });
 const userLoginFailure = (error) => makeActionCreator(LoginTypes.USER_LOGIN_FAILURE, { error });
-const userLogout = (response) => makeActionCreator(LoginTypes.USER_LOGOUT, { response });
+const userLogout = () => makeActionCreator(LoginTypes.USER_LOGOUT);
+
 export default {
   userLogin,
   userLoginSuccess,
